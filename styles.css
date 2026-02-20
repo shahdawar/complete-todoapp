@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+}
+
+.main {
+  /* border: 2px solid black; */
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.inputs {
+  border: 2px solid rgb(143, 140, 140);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 40%;
+  margin: 60px auto;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.inputs input {
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.inputs button {
+  font-size: 18px;
+  padding: 10px 12px;
+  width: 40%;
+  margin: 20px auto;
+  font-size: 22px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7fa6fa;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+}
+
+.inputs button:hover {
+  cursor: pointer;
+}
+
+span {
+  color: blue;
+}
+
+span :hover {
+  cursor: pointer;
+}
