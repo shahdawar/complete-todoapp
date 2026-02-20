@@ -82,6 +82,7 @@ function displayTasks(filter = "All") {
     if (task.status === "Completed") {
       checkbox.checked = true;
       taskElement.style.backgroundColor = "#386a71";
+      taskElement.style.color = "#fff";
     }
 
     checkbox.addEventListener("change", function () {
