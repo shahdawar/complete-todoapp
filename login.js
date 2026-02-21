@@ -1,4 +1,7 @@
 const loginBtn = document.getElementById("loginbutton");
+if (localStorage.getItem("isLoggedIn") === "true") {
+  window.location.href = "dashboard.html";
+}
 loginBtn.addEventListener("click", function () {
   const email = document.querySelector("input[type='email']").value.trim();
   const password = document

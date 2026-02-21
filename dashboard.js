@@ -12,6 +12,7 @@ logout.addEventListener("click", () => {
   localStorage.removeItem("isLoggedIn");
   window.location.href = "index.html";
 });
+
 // Task portion
 const TasksArea = document.getElementById("tasksarea");
 let tasks = [];
@@ -121,6 +122,6 @@ all.addEventListener("click", function () {
 });
 
 if (localStorage.getItem("isLoggedIn") !== "true") {
-  window.location.href = "./login.html";
+  window.location.href = "index.html";
 }
 displayTasks();

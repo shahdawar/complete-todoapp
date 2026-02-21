@@ -1,3 +1,6 @@
+if (localStorage.getItem("isLoggedIn") === "true") {
+  window.location.href = "dashboard.html";
+}
 const registerBtn = document.getElementById("rgbtn");
 
 registerBtn.addEventListener("click", function () {
